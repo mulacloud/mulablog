@@ -2,5 +2,5 @@
     "id" : 1,
     "title": "Blog baru",
     "date": "7 Maret 2020",
-    "content": "Blog baru ini menggunakan svelte sih"
+    "content": "Blog ini dibangun menggunakan svelte dan bulma css. Tanpa menggunakan database. Semua data menggunakan static json saja"
 }
