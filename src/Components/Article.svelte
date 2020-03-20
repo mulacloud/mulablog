@@ -9,7 +9,7 @@
     $: fetch(`/index.json`)
         .then(r => r.json())
         .then(data => {
-            items = data;
+            items = data.reverse();
             window.scrollTo(0, 0);
         });
 </script>

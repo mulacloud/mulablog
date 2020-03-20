@@ -1,8 +1,1 @@
-{
-    "id" : 2,
-    "title": "Svelte adalah sesuatu yang asik",
-    "date": "4 Maret 2020",
-    "content": "Belajar sesuatu teknologi baru sudah menjadi sebuah kebiasan kami sejak dulu. Selama ini kami berfokus hanya pada teknologi \n
-    backend saja seperti django atau odoo. Nah kali ini kami mencoba untuk mempelajari dunia frontend. Svelte lah yang manjadi piliah kami itu
-    "
-}
+{"date": "7 Maret 2020", "content": "Baru baru ini kami menjalin kerja sama dengan IMD Global Service. Kerja sama ini berkaitan dengan pembangunan modul Odoo Bridge. Modul ini berguna untuk memberikan akses yang lebih mudah atau API terhadap aplikasi existing mereka yang bernama Medinesia.", "id": 2, "title": "Klien Baru"}

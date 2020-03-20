@@ -1,0 +1,11 @@
+# title #
+Blog baru
+##
+# date #
+4 Maret 2020
+##
+# content #
+Blog baru ini menggunakan svelte. Svelte sangat lah mudah digunakan dan yang paling 
+kami sukai dari svelte adalah svelte menggunakan sintax javascript plain yang familiar
+untuk kami
+##

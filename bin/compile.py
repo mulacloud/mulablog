@@ -5,14 +5,39 @@ import json
 BASE_COMP = "src/Contents/"
 DATA_PATH = "public/data/"
 TARGET = "public/index.json"
-CUT = 50
+CUT = 70
+
+def parse_data(data):
+    key = None
+    value = None
+    end = False
+    result = {}
+    for item in data.readlines():
+        if item.startswith("# "):
+            key = item.replace("#","").strip()
+            result[key] = None
+            end = False
+        elif item.startswith("##"):
+            key = None
+            end = True
+        elif key and not end:
+            value = item.replace("\n","").strip()
+            old_value = result[key]
+            if old_value:
+                result[key] = old_value + " " + value
+            else:
+                result[key] = value
+
+    return result
 
 if __name__ == "__main__":
     result = []
-    for a in glob("%s*.json" % BASE_COMP):
+    for a in glob("%s*.txt" % BASE_COMP):
         file_name = int(a.split(BASE_COMP)[1].split(".")[0])
-        shutil.copy(a, DATA_PATH + str(file_name) + ".json")
-        data = json.loads(open(a, "r").read())
+        data = parse_data(open(a, "r"))
+        data['id'] = int(file_name)
+        with(open(DATA_PATH + "%s.json" % file_name, 'w')) as js:
+            js.write(json.dumps(data))
         content = data['content']
         if len(content) > CUT:
             data['content'] = content[0:CUT] + " ..."

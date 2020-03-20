@@ -1,5 +1,4 @@
 <script>
-    export let mode = "list";
 	import { onMount } from 'svelte';
     import Header  from './Components/Header.svelte';
     import Article  from './Components/Article.svelte';
