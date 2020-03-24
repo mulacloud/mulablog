@@ -39,7 +39,7 @@
                 <h1 class="title">{item.title}</h1>
                 <p>{@html item.content}</p>
               </div>
-           <a href="/#/home" class="">Back to home</a>
+           <a href="/#/top/1" class="">Back to home</a>
             </div>
           </div>
         </section>

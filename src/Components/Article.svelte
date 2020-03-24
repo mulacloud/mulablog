@@ -9,7 +9,7 @@
     $: fetch(`/index.json`)
         .then(r => r.json())
         .then(data => {
-            items = data.reverse();
+            items = data.sort(function(a,b){ return a.id-b.id}).reverse();
             window.scrollTo(0, 0);
         });
 </script>
@@ -36,7 +36,7 @@
     <div class="hero-body">
       <div class="container">
         <div class="columns">
-          <div class="column is-8 is-offset-2">
+          <div class="column is-10 is-offset-1">
           </div>
         </div>
         {#if items }

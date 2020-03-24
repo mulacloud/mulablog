@@ -1,0 +1,19 @@
+# title #
+Odoo adalah sebuah Platform
+##
+# date #
+24 Maret 2020
+##
+# content #
+Mungkin sebagian dari kita sudah tidak asing lagi dengan software yang bernama
+Odoo. Kalau kita mencari di internet lewat mesin pencari google tentang kata
+kunci "Odoo" maka kita akan mendapati fakta bahwa Odoo adalah sebuah software
+ERP. <br/><br/>
+
+Semua itu tidak lah salah, bahkan tepat sekali kalau dikatakan bahwa Odoo
+adalah software ERP yang sangat lengkap. Sebagai salah satu platforn ERP
+opensource yang ada, Odoo memiliki banyak sekali module. Baik itu sudah
+terdapat secara <i>Builtin</i> atau bersifat <i>Third Party</i>. Banyaknya
+module ini bisa dicapai dikarenakan Odoo adalah sebuah platform yang mudah
+didevelop dan mudah dipelajari.<br/><br/>
+##

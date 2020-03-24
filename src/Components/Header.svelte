@@ -4,7 +4,7 @@
 <nav class="navbar">
     <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+        <a class="navbar-item" href="/#/home">
             <img src="/images/home.png" style="max-height: 100px;" alt="Logo">
         </a>
         <span class="navbar-burger burger" data-target="navbarMenu">
@@ -23,7 +23,7 @@
               </span>
               </div> -->
           </div>
-          <a href="/" class="navbar-item is-active is-size-5 has-text-weight-semibold">
+          <a href="/#/home" class="navbar-item is-active is-size-5 has-text-weight-semibold">
             Home
           </a>
           <a href="https://mula.cloud/" class="navbar-item is-size-5 has-text-weight-semibold">

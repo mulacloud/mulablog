@@ -16,11 +16,11 @@
             const id = path.slice(6);
             item = await fetch(`/data/${id}.json`).then(r => r.json());
             window.scrollTo(0,0);
-        } else if (path.startsWith('/top')) {
-            page = +path.slice(5);
+        } else if (path.startsWith('/home')) {
+            page = 1;
             item = null;
         } else {
-            window.location.hash = '/top/1';
+            window.location.hash = '/home';
         }
     }
 
